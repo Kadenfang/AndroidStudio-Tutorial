@@ -4,14 +4,14 @@
 
 ###1.1启动Android Studio
 
-当我们点击Android Stuido,首先进入的节面，是这样的：
+当点击Android Stuido,首先进入的节面，是这样的：
 
 ![load](./images/android-studio-load-1-1.jpeg)
 
 
 如图，在上面的图里，红色的方框分别圈出了左右两部分。
 
-左边的部分--“ **Recent Project** ”,里面列出来的，是最近打开或创建的安卓项目。点击它们，就可以直接进入到Android Studio对它们进行编辑。
+左边的部分--“ **Recent Project** ”,里面列出来的，是最近打开或创建的安卓项目。点击它们，就能直接进入到Android Studio对它们进行编辑。
 
 右边的部分--“ **Quick Start** ”,选择开始的方式。依次是：
 
@@ -24,14 +24,14 @@
 * **“ Docs and How-Tos ”**, 文档和用户指南。
 
 ###1.2正式进入操作面板
-进入我们的Android Stuido项目，可以看到这样的界面：
+进入Android Stuido项目，将会看到这样的界面：
 
 ![load-2](./images/android-studio-load-2.png)
 
 首先映入眼帘的，就是一个小弹窗，里面会有一些操作的小贴士，直接选择“Close”,就可以不用管它了。
 
-关掉弹窗之后，就真正的进入到了工具操作页面。
-我们可以看到这样的界面：
+关掉弹窗之后，就真正的进入到工具操作页面中了。
+可以看到这样的界面：
 
 ![main-1](./images/android-studio-main-1.jpeg)
 
@@ -140,7 +140,7 @@ Project的所有视图都是真实的目录.
   
 ##2.基本操作    
 ###2.1设置主题    
-相信很多朋友都和我一样，在使用eclipse时，为换主题的事情头疼过。而在Android Studio当中，更换主题非常简单。下面来介绍Android Studio中设置主题的方法：
+在使用eclipse时，很多人为换主题的事情头疼过。而在Android Studio当中，更换主题非常简单。下面来介绍Android Studio中设置主题的方法：
 
 如下图，选择"Preferences..".   
 
@@ -154,7 +154,8 @@ Project的所有视图都是真实的目录.
 选择Darcula之后，会弹出提醒，要我们重启一次Android Studio.如下图：   
 ![theme](./images/android-studio-theme-2.png)
 
-从上面的图，可以看到，主题已经变成了黑色。只需要选择“Restart”,重启之后，我们就完成了主题的更换。
+从上面的图，可以看到，主题已经变成了黑色。只需要选择“Restart”,重启之后，就完成了主题的更换。  
+
 ###2.2字体大小
 更换完主题之后，由于个人的需要不同，接下来，还可以自己来更换字体的大小风格。来满足视觉需求。
 ####2.2.1代码字体   
