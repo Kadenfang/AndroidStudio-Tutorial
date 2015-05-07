@@ -132,9 +132,10 @@
 * 使用 Gradle 编译 project 。
 * 虚拟机。
 * SDK Manager 。
-* DDMS 。
-##2.基本操作
-###2.1设置主题
+* DDMS 。  
+  
+##2.基本操作    
+###2.1设置主题    
 相信很多朋友都和我一样，在使用eclipse时，为换主题的事情头疼过。而在Android Studio当中，更换主题非常简单。下面来介绍Android Studio中设置主题的方法：
 
 如下图，选择"Preferences..".   
