@@ -91,7 +91,7 @@
 ![phone](http://7xiym9.com1.z0.glb.clouddn.com/phone.jpeg)
 
 点击之后，效果如下：  
-![xmltest](http://7xiym9.com1.z0.glb.clouddn.com/xmltest.jpeg)
+![xmltest](http://7xiym9.com1.z0.glb.clouddn.com/xmltest.jpeg)   
 点击“Design”，可以返回到原来的小手机界面。
 对于其他的文件，
 我们可以选择相应目录下的文件打开，就可以进行代码的编辑了。
