@@ -68,8 +68,8 @@
 
 
 当然，说到这里，在Project中，大家还可以来切换视图。
-根据自己的需要，选择不同的视图。
-加上上面的Project面板中，一共有三种视图模式。
+根据自己的需要，选择不同的视图。  
+加上上面的Project模式，一共有三种视图模式。  
 可以点击如图当中的Project来切换它：
 
 ![main-1-2](./images/android-studio-main-1-2.png)
@@ -78,15 +78,19 @@
 
 选择后，效果如下图：  
 ![packages](./images/android-studio-package.png)  
-  
-只是显示了当前的Module列表和Module下面的目录,文件.  
+   
+ 该视图下，和Project最大的区别就是：  
+ 隐藏了其中中的配置文件,属性文件和系统自身的目录。  
+ 只是显示了当前的Module列表和Module下面的目录,文件.  
 
 同样的，我们再点击上图中的**Packages**,选择“Android”,
  
-![android](./images/android-studio-android.png)  
-Android视图下的一级目录分两个区域,一个是Module列表区域（“app”文件夹路径下）,一个是Gradle脚本区域（“Gradle Scripts”路径下）。 
-Project的所有视图都是真实的目录.  
-而在Android视图下,很大目录都是不存在的,由Android视图自动合并在了一起,方便我们理解和布置.  
+![android](./images/android-studio-android.png)   
+   
+Android视图下的一级目录分两个区域：  
+一个是Module列表区域（“app”文件夹路径下）,一个是Gradle脚本区域（“Gradle Scripts”路径下）。    
+Project的所有视图都是真实的目录。  
+而在Android视图下,很大目录都是不存在的,由Android视图自动合并在了一起,方便我们理解和布置。  
 所以，在想要添加文件到项目里面时候，最好是切换回Project视图。  
 ###1.3.2编辑区
 故名思义，这里用于编辑文件，我们现在的2号区域，显示的是一个手机效果的预览图。
