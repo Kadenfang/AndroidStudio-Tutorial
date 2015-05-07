@@ -19,7 +19,7 @@
 * **“ Open an existing Android Studio project ”**, 打开一个已经存在Android Studio项目。
 * **“ Import an Android code sample ”**, 导入一个安卓代码示例。
 * **“ Check out project from Version Control ”**, 从版本服务器中迁出项目。
-* **" Import project(Eclipse ADT,Gradle,etc.) "**， 导入包括eclipse AdT,Gradle,etc.在内的项目
+* **" Import project(Eclipse ADT,Gradle,etc.) "**， 导入包括eclipse ADT,Gradle,etc.在内的项目
 * **" Configure "**， 设置配置。
 * **“ Docs and How-Tos ”**, 文档和用户指南。
 
