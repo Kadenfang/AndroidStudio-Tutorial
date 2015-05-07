@@ -107,18 +107,18 @@ Project的所有视图都是真实的目录。
 ###1.3.3 组件树 
  
 ![component tree](./images/android-studio-tree.png)   
-这里主要用于显示布局当中的UI组件，通过组件树，我们可以很直观的看出布局当中，UI组件的关系。帮助理清布局的结构。
+这里的3号区域。主要用于显示布局当中的UI组件，通过组件树，我们可以很直观的看出布局当中，UI组件的关系。帮助理清布局的结构。
 
 ###1.3.4 properties面板  
  
 ![properties](./images/android-studio-properties.png)   
-如图，这是属性面板，从这里可以看到我们当前UI控件的属性。也可以在里面修改控件的属性。
+如图，4号区域是属性面板，从这里可以看到我们当前UI控件的属性。也可以在里面修改控件的属性。
 
 ###1.3.5 Android 面板
 
 ![logcat](./images/android-studio-logcat.jpeg)
 
-在这里可以看到红框理有4个选项卡，分别是:
+在5号区域会看到红框里有4个选项卡，分别是:
 
 - **Terminal**: 可以在这里直接输入命令行操作。
 - **Android**： 打开可以看到DDMS中的设备信息和Logcat输出。也可以切换android logs。
@@ -128,7 +128,7 @@ Project的所有视图都是真实的目录。
 ###1.4工具栏常用按钮
 ![button](./images/android-studio-s.jpeg)
 
- 从左到右，这里依次是：
+ 如上图，从左到右，这里依次是：
  
 * 编译右侧 module 列表中显示的 module 。
 * 当前 project 的 module 列表。
