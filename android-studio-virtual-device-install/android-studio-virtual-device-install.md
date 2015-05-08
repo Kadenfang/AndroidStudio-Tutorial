@@ -4,8 +4,8 @@
 只有在实际的检查当中，才能发现我们的问题。  
 下面将为大家介绍安装模拟器的两个方法：   
 
-* ###直接在使用Android Studio中安装模拟器
-* ###利用Genymotion安装模拟器  
+* 直接在使用Android Studio中安装模拟器
+* 利用Genymotion安装模拟器  
 
 ##1.直接在使用Android Studio中安装模拟器  
 
