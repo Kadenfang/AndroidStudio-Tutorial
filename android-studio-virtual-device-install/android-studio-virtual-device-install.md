@@ -117,50 +117,65 @@ mac平台的用户直接输入账号名密码，就可以了。
 
 ###1.3 Linux系统下， IntelHAXM(KVM)安装  
 1.先检查cpu是否支持ardware virtualization,返回0表示不支持  
+ 
 ```egrep -c '(vmx|svm)' /proc/cpuinfo```  
-2.检查是否支持upports kvm,需要安装工具pu-checker   
-```sudo apt-get install cpu-checker ```  
-3.执行检测命令  
+    
+2.检查是否支持upports kvm,需要安装工具pu-checker    
+    
+```sudo apt-get install cpu-checker ```     
+3.执行检测命令
+  
 ```kvm-ok```  
 返回
 
------
-```cpu支持 ```    
-```"INFO: Your CPU supports KVM extensions ```  
+-----   
+
+```cpu支持```    
+    
+```"INFO: Your CPU supports KVM extensions ```   
+ 
 ```INFO: /dev/kvm exists ```  
+
 ```KVM acceleration can be used" ``` 
+
  
 -----
-```cpu不支持需要到bios中设置VT开启状态 ```  
-```"INFO: KVM is disabled by your BIOS ```  
+
+```cpu不支持需要到bios中设置VT开启状态 ```   
+ 
+```"INFO: KVM is disabled by your BIOS ```    
+
 ```HINT: Enter your BIOS setup and enable Virtualization Technology (VT),  ```    
-```and then hard poweroff/poweron your system ```  
-```KVM acceleration can NOT be used"```
+   
+```and then hard poweroff/poweron your system ```    
+
+```KVM acceleration can NOT be used"```     
 
 ----
 
-开始安装kvm      
-```sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ```    
+开始安装kvm          
+```sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ```       
 安装成功之后重启.   
 
-添加用户到kvm,libvirtd组     
-```sudo adduser your_user_name kvm```
-```sudo adduser your_user_name libvirtd```
+添加用户到kvm,libvirtd组        
+```sudo adduser your_user_name kvm```    
+```sudo adduser your_user_name libvirtd```   
 
-安装验证:     
-```sudo virsh -c qemu:///system list```
+安装验证:        
+```sudo virsh -c qemu:///system list```  
 
 安装成功出现如下命令   
-```Id Name                 State```    
-```----------------------------------```   
+```Id Name                 State```       
+```----------------------------------```       
 通过命令,启动虚拟机   
-```<SDK directory>/tools/emulator-x86 -avd Your_AVD_Name -qemu -m 2047 -enable-kvm```
+```<SDK directory>/tools/emulator-x86 -avd Your_AVD_Name -qemu -m 2047 -enable-kvm```    
 
 添加启动参数  
-```-qemu -m 2047 -enable-kvm```
+```-qemu -m 2047 -enable-kvm```     
 
 
 ####方法二
+
 通过SDK Manager来安装HAXM.   
 点击" SDK Manager " ：   
  ![manager](./images/android-studio-sdk-manager.png)   
