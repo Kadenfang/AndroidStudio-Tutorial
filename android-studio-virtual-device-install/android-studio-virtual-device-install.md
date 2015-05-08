@@ -116,15 +116,11 @@ mac平台的用户直接输入账号名密码，就可以了。
 ![install](./images/android-studio-install.png)   
 
 ###1.3 Linux系统下， IntelHAXM(KVM)安装  
-1.先检查cpu是否支持ardware virtualization,返回0表示不支持  
- 
+1.先检查cpu是否支持ardware virtualization,返回0表示不支持     
 `egrep -c '(vmx|svm)' /proc/cpuinfo`  
-    
-2.检查是否支持upports kvm,需要安装工具pu-checker    
-    
+2.检查是否支持upports kvm,需要安装工具pu-checker       
 `sudo apt-get install cpu-checker `     
-3.执行检测命令
-  
+3.执行检测命令   
 `kvm-ok`  
 返回
 
@@ -175,18 +171,15 @@ mac平台的用户直接输入账号名密码，就可以了。
 
 
 ####方法二
-
 通过SDK Manager来安装HAXM.   
 点击" SDK Manager " ：   
-
- ![manager](./images/android-studio-sdk-manager.png)  
+![manager](./images/android-studio-sdk-manager.png)  
   
-勾选"Extras"-->“**Intel x86 Emulator Accelerator(HAXM installer)**”选项。    
-然后点击“**Install packages..**”(我这里已经安装了，所以是灰色的)。如图：
+勾选"Extras"-->“**Intel x86 Emulator Accelerator(HAXM installer)**”选项。     
+然后点击“**Install packages..**”(我这里已经安装了，所以是灰色的)。如图：  
 ![sdkmanager](./images/android-studio-sdkmanager.jpeg)  
 
 
--------
 安装好HAXM之后，我们重新运行项目。   
 可以看到模拟器已经出现：
 ![deviceStart](./images/android-studio-deviceStart.jpeg)
@@ -197,7 +190,6 @@ mac平台的用户直接输入账号名密码，就可以了。
 ![deviceTest](./images/android-studio-deviceTest.png)
 
 
-----------
 
 
 ##2.  利用Genymotion安装模拟器 
