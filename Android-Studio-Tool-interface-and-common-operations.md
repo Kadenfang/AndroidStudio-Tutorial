@@ -152,11 +152,13 @@ Project的所有视图都是真实的目录。
 
 **PS**: Windows系统中选择，File->Settings->Apperance  
 
-之后出现下图,在右边面板的“ Theme ”中,选择**“ Darcula ”**：   
-![theme](./images/android-studio-theme-1.png)
+之后出现下图,在右边面板的“ Theme ”中,选择**“ Darcula ”**： 
+  
+![theme](./images/android-studio-theme-1.png)  
 
-选择Darcula之后，会弹出提醒，要我们重启一次Android Studio.如下图：   
-![theme](./images/android-studio-theme-2.png)
+选择Darcula之后，会弹出提醒，要我们重启一次Android Studio.如下图： 
+  
+![theme](./images/android-studio-theme-2.png)  
 
 从上面的图，可以看到，主题已经变成了黑色。只需要选择“Restart”,重启之后，就完成了主题的更换。  
 
