@@ -13,5 +13,6 @@
 
 ~~~Var names = new List<String>();names.addAll([‘Seth’, ‘Kathy’ , ‘Lars’]);Var nameSet = new Set<String>.from(names);~~~下列代码创建了一个含有整形关键字以及类型为View的图：Var views = new Map<int,view>();###泛型集合及其包含的类型Dart泛型类型是被具体化的，意思就是它们在整个运行时间中都携带着类型信息。举个例子，你可以测试一个集合中的类型甚至是在生产模式中：
 
-~~~Var names = new List<String>();names.addAll([‘Seth’, ‘Kathy’, ‘Lars’]);Print(names is List<String>); // true~~~然而，上述is 表达式检查的仅仅是集合中的类型--并不是其中的对象。在生产模式下，一个List<String>中可能含有一些非字符项，解决方法可以是逐项检查其类型或者在异常处理程序中加入数据项操作代码。提示：相反的，在Java中泛型使用erasure，意思就是泛型类型的参数在运行中将会被抹除。在Java中你可以测试一个对象是否是一个表，但是你不能测试它是否是一个List<String>。
+~~~Var names = new List<String>();names.addAll([‘Seth’, ‘Kathy’, ‘Lars’]);Print(names is List<String>); // true~~~然而，上述is 表达式检查的仅仅是集合中的类型--并不是其中的对象。在生产模式下，一个List<String>中可能含有一些非字符项，解决方法可以是逐项检查其类型或者在异常处理程序中加入数据项操作代码。  
+**提示**：相反的，在Java中泛型使用erasure，意思就是泛型类型的参数在运行中将会被抹除。在Java中你可以测试一个对象是否是一个表，但是你不能测试它是否是一个List<String>。
 更多关于泛型的信息，请见**Optional Types in Dart**
